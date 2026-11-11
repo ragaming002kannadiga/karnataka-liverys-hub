@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KARNATAKA BUSSID PLAYER'S - R.A_GAMING.002</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f9f9f9; color: #333; }
+        
+        /* Header & Karnataka Theme */
+        header { background: #111; color: #ffcc00; padding: 20px; text-align: center; border-bottom: 5px solid #ff0000; }
+        header h1 { font-size: 24px; margin-bottom: 5px; color: #ffcc00; }
+        header p { font-size: 14px; color: #fff; }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1000') no-repeat center center/cover; 
+            color: white; 
+            text-align: center; 
+            padding: 60px 20px; 
+            border-bottom: 4px solid #ffcc00;
+        }
+        .hero h2 { color: #ffcc00; font-size: 28px; margin-bottom: 10px; }
+        .hero p { font-size: 16px; margin-bottom: 20px; }
+        
+        /* Container & Grid */
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .section-title { font-size: 22px; margin: 20px 0; color: #111; border-left: 5px solid #ff0000; padding-left: 10px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        
+        /* Livery Card Style */
+        .card { 
+            background: white; 
+            border-radius: 10px; 
+            overflow: hidden; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+            border-top: 4px solid #ff0000; 
+            transition: transform 0.3s ease;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card img { width: 100%; height: 180px; object-fit: cover; }
+        .card-content { padding: 15px; }
+        .card-content h3 { font-size: 18px; margin-bottom: 8px; color: #222; }
+        .card-content p { font-size: 14px; color: #666; margin-bottom: 15px; }
+        
+        /* Download Button */
+        .btn { 
+            display: block; 
+            background: #28a745; 
+            color: white; 
+            text-align: center; 
+            padding: 10px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .btn:hover { background: #218838; }
+
+        /* Footer */
+        footer { background: #111; color: white; text-align: center; padding: 20px; margin-top: 40px; border-top: 4px solid #ffcc00; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+       <h1>KARNATAKA BUSSID PLAYER'S</h1>
+       <p>Official R.A_GAMING.002 Livery Hub</p>
+    </header>
+
+    <!-- Hero / Banner Section -->
+    <div class="hero">
+        <h2>ನಮ್ಮ ಕರ್ನಾಟಕ ಲಿವರೀಸ್</h2>
+        <p>ಬಸ್ ಸಿಮ್ಯುಲೇಟರ್ ಇಂಡೋನೇಷಿಯಾ & ಇಂಡಿಯಾ ಬೆಸ್ಟ್ ಲಿವರಿಗಳು ಇಲ್ಲಿ ಲಭ್ಯ!</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2 class="section-title">Featured Liveries</h2>
+        
+        <div class="grid">
+            <!-- Livery Card 1 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?w=500" alt="KSRTC Bus">
+                <div class="card-content">
+                    <h3>KSRTC Airavat Club Class</h3>
+                    <p>Bengaluru - Mysuru Route High-Res Livery</p>
+                    <a href="#" class="btn" target="_blank">DOWNLOAD LIVERY</a>
+                </div>
+            </div>
+
+            <!-- Livery Card 2 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=500" alt="Lorry Mod">
+                <div class="card-content">
+                    <h3>Karnataka Lorry Mod</h3>
+                    <p>Ashok Leyland Custom Truck Livery</p>
+                    <a href="#" class="btn" target="_blank">DOWNLOAD LIVERY</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 R.A_GAMING.002 | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
